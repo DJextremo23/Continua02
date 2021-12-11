@@ -1,0 +1,2 @@
+rootProject.name = "continua02"
+include ':app'
