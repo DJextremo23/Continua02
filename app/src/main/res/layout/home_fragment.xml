@@ -18,6 +18,7 @@
             android:layout_width="147dp"
             android:layout_height="match_parent"
             app:title="Inicio"
+            android:textStyle="bold"
             app:titleTextColor="@color/white" />
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -25,7 +26,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
 
         <TextView
             style="@style/TextAppearance.AppCompat.Display3"
@@ -36,5 +36,24 @@
             android:textSize="20sp"
             android:layout_marginLeft="100dp"
             android:text="Bienvenidos" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="5dp"
+            app:srcCompat="@drawable/raul" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp"
+            app:srcCompat="@drawable/raul"
+            android:layout_marginBottom="5dp"/>
+
+
+
     </LinearLayout>
 </LinearLayout>
